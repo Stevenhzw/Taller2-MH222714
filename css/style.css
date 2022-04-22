@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+    background-color: #c9184a;
+}
+ul {
+    float: left;
+    list-style: none;
+    position: relative;
+    left: 50%;
+}
+li {
+    display: block;
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+li a {
+  text-decoration: none;  
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+li a:hover{
+    background-color: #272727;
+}
+
+.logo{
+    width: 50px;
+}
+.container{
+    width: 80%;
+    background-color: #f5f3f4;
+    margin: auto;
+}
+.nuestraClase img{
+    width:80%;
+}
+h1{
+    text-align: center;
+     
+
+}
+.side{
+    width: 20%;
+    margin: 6.5%;
+    display: inline-block;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border: #272727 solid 1px;
+    text-align: center;
+    width: 100% ;
+    margin-top: 6.5%;
+}
+td,th{
+    border: #272727 solid 2px;
+}
+th{
+    background-color: #c9184a;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #272727;
+    color: white;
+  }
+.tabla{
+    overflow-x:auto;
+}
+@media screen and (max-width:1085px){
+.side{
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+}
+}   
+@media screen and (max-width:900px){
+li a {
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+  color: white;
+  font-weight: bold;
+}
+}
+@media screen and (max-width:680px){
+li a {
+  text-decoration: none;
+  padding: 0px 5px 0px 5px;
+  color: white;
+  font-weight: bold;
+}
+}
+@media screen and (max-width:570px){
+    ul {
+        float: none;
+        list-style: none;
+        position: relative;
+        left: 50%;
+        width: 100%;
+    }
+    li {
+        display: block;
+        float: none;
+        position: relative;
+        right: 50%;
+        width: 100%;
+        padding: 15px;
+        border-bottom: #f5f3f4 solid;
+        border-width:  0px 0px 0.5px 0px;
+    }
+    li:hover{
+        background-color: #272727;
+    }
+    .lilogo{
+        border-width: 0px 0px 0px 0px;
+
+    }
+    .lilogo:hover{
+        background-color: transparent;
+    }
+    .logo{
+        width: 30%;
+        margin-left: 30%;
+    }
+
+    }
