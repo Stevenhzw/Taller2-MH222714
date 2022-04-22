@@ -13,30 +13,30 @@ header {
     padding-top: 20px;
     background-color: #c9184a;
 }
-ul {
+.menu ul {
     float: left;
     list-style: none;
     position: relative;
     left: 50%;
 }
-li {
+.menu li {
     display: block;
     float: left;
     position: relative;
     right: 50%;
 }
 
-li a {
+.menu li a {
   text-decoration: none;  
   padding: 20px;
   color: white;
   font-weight: bold;
 }
-li a:hover{
+.menu li a:hover{
     background-color: #272727;
 }
 
-.logo{
+.menu .logo{
     width: 50px;
 }
 .container{
@@ -79,6 +79,12 @@ tr:nth-child(even){
 .tabla{
     overflow-x:auto;
 }
+.numero ol{
+    list-style-type: decimal;
+}
+ol .letras{
+    list-style-type: lower-alpha;
+}
 @media screen and (max-width:1085px){
 .side{
     width: 80%;
@@ -87,7 +93,7 @@ tr:nth-child(even){
 }
 }   
 @media screen and (max-width:900px){
-li a {
+.menu li a {
   text-decoration: none;
   padding: 0px 10px 0px 10px;
   color: white;
@@ -95,7 +101,7 @@ li a {
 }
 }
 @media screen and (max-width:680px){
-li a {
+    .menu li a {
   text-decoration: none;
   padding: 0px 5px 0px 5px;
   color: white;
@@ -103,14 +109,14 @@ li a {
 }
 }
 @media screen and (max-width:570px){
-    ul {
+    .menu ul {
         float: none;
         list-style: none;
         position: relative;
         left: 50%;
         width: 100%;
     }
-    li {
+    .menu li {
         display: block;
         float: none;
         position: relative;
@@ -120,7 +126,7 @@ li a {
         border-bottom: #f5f3f4 solid;
         border-width:  0px 0px 0.5px 0px;
     }
-    li:hover{
+    .menu li:hover{
         background-color: #272727;
     }
     .lilogo{
